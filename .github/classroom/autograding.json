@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "tc1",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc1PrintArray",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc2",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc3PrintArray",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc3",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc4PrintArray",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc4",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc4ReadNumbersReverse",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc5",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc5ReadNumbersReverse",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc6",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc6ReadNumbersReverse",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc7",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc7findNumberInArray",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc8",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc8findNumberInArray",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc9",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc9findNumberInArray",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc10",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc10findNumberInArray",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
