@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 public class Car{
 
+    
     /************ Part 1 **************/
     /**
      * Decalre all instance variables 
@@ -21,7 +22,8 @@ public class Car{
      * private dataType name;
      *
      */
-
+    private String model;
+    private boolean inOutGarage;
     /************ Part 2 **************/
     /**
      * Define a default constructor and set 
@@ -33,6 +35,14 @@ public class Car{
      *      //body
      * }
      */
+    
+public Car(){
+
+model=" ";
+inOutGarage=false;
+
+
+}
 
     /************ Part 3 **************/
     /**
@@ -43,7 +53,12 @@ public class Car{
      *      return this.InstanceVariableName;
      * }
      */
-
+    public String getmodel (){
+              return this.model;
+         }
+     public boolean getinOutGarage (){
+            return this.inOutGarage;
+        }
 
     /************ Part 4 **************/
     /**
@@ -54,8 +69,12 @@ public class Car{
      * }
      *
      */
-
-
+    public void setmodel(String modl){
+              this.model=modl;
+            }
+     public  void setinOutGarage (boolean inoutG){
+                this.inOutGarage=inoutG;
+              }
     /************ Part 5 **************/
     /**
      * Implement the following two methods
@@ -63,7 +82,13 @@ public class Car{
      * moveCarIn() to set the inOutGarage flag to true;
      *
      */
+   public void moveCarOut(Boolean setcar){
+    setinOutGarage(false);
 
+   }
+   public void moveCarIn(Boolean setcarin){
+    setinOutGarage(true);
 
+   }
 
 }
